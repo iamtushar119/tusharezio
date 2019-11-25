@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+  height: 100%;
+  
+}
+:root{
+	--main-font-name:'Open Sans', sans-serif;
+}
+
+.container-fluid
+{
+    /*background-image:url(161508281.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+   
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);	*/
+}
+#container
+{
+	 background-color:#000;
+	 position:relative;
+}
+#bg-img img
+{
+  width:100%;
+  height:1800px; 
+  margin-bottom:20px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);"*/
+}
+
+
+
+
+#row1
+{
+	 position:absolute; 
+	 top:50px; 
+	 width:100%; "
+}
+#contact
+{
+	font-size:50px; 
+	color:#FFFFFF;
+	font-family: 'Oranienbaum', serif;
+	text-align:center;
+	color:#000;
+}
+#contact1
+{
+	font-family: var(--main-font-name);
+	font-size:30px;
+	color:#FFFFFF; 
+	text-align: center;
+	color:#000;
+}
+#contact2
+{
+	font-family: var(--main-font-name);
+	font-size:30px;
+	color:#FFFFFF;
+	text-align:center;
+	color:#000;
+}
+
+
+
+#address
+{
+	 font-family:jacob;
+	 font-size:26px;
+	 color:#FFFFFF;
+	 padding-top:40px; 
+	 text-align: center;
+}
+#address1
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:40px;
+	color:#000;
+	text-align: center;
+}
+
+
+
+#contactform
+{
+	font-family:jacob;
+	font-size:26px;
+	color:#FFFFFF;
+	padding-top:20px;
+}
+
+#formgroup
+{
+	box-shadow: 3px 3px 3px 3px #2f2f30;
+	padding:15px;
+}
+#uname
+{
+	 font-size:20px; 
+	 color:#000;
+	 background: none;
+}
+#pwd
+{
+	font-size:20px; 
+	color:#000;
+	background: none;
+}
+#comment
+{
+	font-size:20px; 
+	color:#000;
+	background: none;
+}
+#homebtn
+{
+	width:200px; 
+	hegiht:150px; 
+	background-color: #ff622e; 
+	color:#FFFFFF; 
+	font-size:20px;
+	margin-bottom: 20px;
+	border:none;
+}
+.form-control
+{
+   background:none;  
+   border:none;
+   border-bottom:1px solid #CCC;
+   color:#FFF;
+   font-size:27px;
+}
+#bg-img{
+	background-attachment:scroll;
+}

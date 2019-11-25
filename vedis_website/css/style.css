@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+  height: 100%;
+  margin: 0;
+ 
+}
+:root{
+--main-font-name:'Open Sans', sans-serif;/* storing name values in variable */
+--main-header-name:'Old Standard TT', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container
+{
+	background-image:url(../img/bgimgvedis3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  color:#000000;
+  height:auto;
+}
+#row #desc
+{
+	font-size:70px;
+	font-family: var(--main-header-name);
+	margin-top:15px;
+}
+#row #logo img
+{ 
+	height:420px;
+	width:auto;
+	margin-top:25px;"
+}
+@media(max-width:1290px)
+{
+	#row #logo img
+	{
+		height:360px;
+	}
+}
+#row2 #vedis
+{
+	margin-top:50px;
+	font-family: 'Lato', sans-serif; 
+	font-size:24px; 
+	line-height:38px; 
+	text-align:left;
+	justify-content:center;
+}
+@media(min-width:1900px)
+{
+	#row #desc
+	{
+		 padding-left:80px;
+	}
+}
+@media(max-width:420px)
+{
+	#row #desc
+	{
+		font-size:30px;
+		padding:left:20px;
+		margin-left:0px;
+	}
+}
+@media(max-width:1290px)
+{
+	#row #desc
+	{
+		font-size:50px;
+	}
+}
+@media(max-width:1450px;)
+{
+	#row #desc
+	{
+		font-size:50px;
+	}
+}
+@media(max-width:850px)
+{
+	#row #desc
+	{
+		padding-left:45px;
+	}
+}
+#row3 #expert
+{
+	text-align:center; 
+	font-size:45px;
+	margin-top:20px; 
+	margin-bottom:20px;
+	font-family: var(--main-header-name);
+}
+#expert2
+{
+	text-align:center;
+	font-size:30px;
+	font-family: var(--main-font-name);
+	text-align:left;
+	justify-content:center;
+}
+#expert3
+{
+	text-align:center; 
+	margin-top:30px;
+	font-size:30px;
+	font-family: var(--main-font-name);
+	text-align:left;
+	justify-content:center;"
+}
+@media(max-width:450px)
+{
+	#expert2
+	{
+		font-size:24px;
+	}
+	#expert3
+	{
+		font-size:24px;
+	}
+}
+
+
+
+#unique
+{
+	 text-align:center;
+	 font-size:45px; 
+	 margin-top:20px;
+	 font-family: var(--main-header-name);
+}
+#unique2
+{
+	 text-align:center; 
+	 margin-top:15px;
+	 font-size:30px;
+	 font-family:var(--main-font-name);
+	 text-align:left;
+	 justify-content:center;"
+}
+#unique3
+{
+	text-align:center; 
+	margin-top:23px;
+	font-size:27px;
+	font-family: 'Didact Gothic', sans-serif; 
+	line-spacing:0px;
+	text-align:left;
+	justify-content:center;
+	line-height:65px;
+}
+@media(max-width:420px)
+{
+	#unique3
+	{
+		font-size:24px;
+		line-height: 50px;
+	}
+}
+
+
+
+#container2
+{
+	 background-color: #000;
+	 position:relative;
+	 overflow:scroll;
+}
+#bg-img img
+{
+	width:100%;
+	height:2550px;
+	background-position: center;
+    background-repeat: no-repeat;
+   /* background-size: cover;filter: blur(8px);
+   -webkit-filter: blur(8px);"*/
+}
+#row4
+{
+	position:absolute;
+	top:50px; 
+	width:100%;
+}
+
+
+
+
+#value
+{
+	font-size:50px; 
+	color:#FFFFFF;
+	font-family: var(--main-header-name); 
+	text-align:center;
+}
+#value2
+{
+	font-size:30px; 
+	color:#FFFFFF;
+	font-family: var(--main-font-name);
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	justify-content:center;
+}
+@media(max-width:420px)
+{
+	#value2
+	{
+		font-size:24px;
+	}
+}
+
+
+
+#computer
+{
+	font-family:var(--main-header-name);
+	font-size:40px;
+	color:#FFFFFF;
+}
+#computer2
+{
+	 font-family: var(--main-font-name);
+	 font-size:26px;
+	 color:#FFFFFF;
+	 padding-top:20px;
+}
+@media(max-width:420px)
+{
+	#computer2
+	{
+		font-size:24px;
+	}
+	#computer
+	{
+		font-size:35px;
+		text-align:left;
+	}
+}
+
+
+
+#finance
+{
+	font-family:var(--main-header-name);
+	font-size:40px;
+	color:#FFFFFF;
+}
+#finance2
+{
+	 font-family:var(--main-font-name);
+	 font-size:26px;
+	 color:#FFFFFF;
+	 padding-top:20px;
+}
+
+@media(max-width:420px)
+{
+	#finance2
+	{
+		font-size:24px;
+	}
+}
+
+#data
+{
+	 font-family:var(--main-header-name);
+	 font-size:40px;
+	 color:#FFFFFF;"
+}
+#data2
+{
+	 font-family:jacob;
+	 font-family: var(--main-font-name);
+	 font-size:26px;
+	 color:#FFFFFF;
+	 padding-top:20px;
+}
+@media(max-width:420px)
+{
+	#data2
+	{
+		font-size:24px;
+	}
+}
+
+
+
+#button1
+{
+	border:2px solid #F13C20; 
+	text-align:center;
+	padding-bottom:10px; 
+	margin-left:10px;
+	margin-top:10px; 
+	margin-right:10px; 
+	height:80px;
+	padding-top:15px;
+	border-radius:20px; 
+	color:#F13C20; 
+	font-size:25px;
+}
+
+
+
+#container4
+{
+	 height:165px;
+	 background-color: #eb5509;
+	 color:#fff; 
+     font-family: sans-serif;
+     font-size:25px;
+     text-align: center;
+}
+

@@ -1,0 +1,113 @@
+body{
+
+  margin: 0;
+  padding:0;
+  
+}
+:root{
+--main-font-name:'Open Sans', sans-serif;/* storing name values in variable */
+--main-header-name:'Source Sans Pro', sans-serif;
+}
+
+
+#container
+{
+
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	 min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    color:#000000;
+    background-color: #000;
+    position:relative;
+    
+}
+#bg-img img
+{
+	width:100%;
+	height:1200px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* filter: blur(8px);
+   -webkit-filter: blur(8px);*/
+}
+#row5
+{
+	position:absolute; 
+	top:20px; 
+	width:100%;
+}
+#hire
+{
+	font-size:50px; 
+	color:#000;
+	text-align: center;
+	font-family: 'Oranienbaum', serif; 
+	background: none;
+}
+#hire1
+{
+	font-size:30px;
+	color:#000;
+	text-align: center; 
+	font-family: var(--main-font-name);
+	margin:20px;
+}
+#hire2
+{
+    font-size:30px;
+    color:#000;
+    text-align: center; 
+    font-family: var(--main-font-name);
+	margin:20px;
+}
+#tech
+{
+	font-size:40px; 
+	color:#000;
+	text-align: center;
+	font-family:var(--main-header-name); 
+	background: none; 
+	margin-top:25px;
+}
+#tech2
+{
+	font-size:30px;
+	color:#000;
+	text-align: center;
+	font-family: var(--main-font-name);
+	margin:20px;
+}
+#data1
+{
+	font-size:40px; color:#000;text-align: center;font-family:var(--main-header-name);; background: none; margin-top:25px;
+}
+#data3
+{
+	font-size:30px; color:#000;text-align: center; background: none; margin-top:25px;
+	font-family: var(--main-font-name);
+}
+#data4
+{
+	font-size:40px; color:#000;text-align: center;font-family: var(--main-header-name);; background: none; margin-top:25px;margin-bottom:20px;
+}
+#contact
+{
+   margin:0;
+   padding:0;
+   font-size:5vw;
+   font-family:var(--main-header-name);;
+   font-size:40px;
+   color:#000;
+   text-align: center; 
+   padding:40px;	
+}
+#btn
+{
+	width:200px; margin-bottom: 50px;
+}
